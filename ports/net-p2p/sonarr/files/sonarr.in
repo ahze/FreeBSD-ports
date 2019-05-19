@@ -23,7 +23,7 @@ load_rc_config $name
 : ${sonarr_user:="sonarr"}
 : ${sonarr_data_dir:="%%PREFIX%%/sonarr"}
 
-pidfile="${sonarr_data_dir}/nzbdrone.pid"
+pidfile="${sonarr_data_dir}/${name}.pid"
 procname="%%PREFIX%%/bin/mono"
 command="/usr/sbin/daemon"
 command_args="-f ${procname} %%DATADIR%%/Sonarr.exe --nobrowser --data=${sonarr_data_dir}"

@@ -2,7 +2,7 @@
 
 PORTNAME=	sonarr
 PORTVERSION=	3.0.1.499
-PORTREVISION=	0
+PORTREVISION=	1
 CATEGORIES=	net-p2p
 #MASTER_SITES=	http://download.sonarr.tv/v2/master/mono/
 MASTER_SITES=	http://download.sonarr.tv/v3/phantom-develop/${PORTVERSION}/
