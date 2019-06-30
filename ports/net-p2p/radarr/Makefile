@@ -1,7 +1,7 @@
 # $FreeBSD: head/net-p2p/radarr/Makefile 493007 2019-02-15 18:26:23Z feld $
 
 PORTNAME=	radarr
-PORTVERSION=	0.2.0.1344
+PORTVERSION=	0.2.0.1358
 # https://github.com/Radarr/Radarr/releases/download/v0.2.0.1344/Radarr.develop.0.2.0.1344.linux.tar.gz
 DISTVERSIONPREFIX=v
 PORTREVISION=	1
